@@ -47,6 +47,17 @@ app.use(morgan("tiny"));
 
 app.all("*", remixHandler);
 
+
+app.post('/content', (req, res) => {
+  console.log(req.body)
+  const platform = req.body.platform;
+  const topic = req.body.topic;
+
+  res.status(200).json({platform, topic});
+});
+
+
+
 const port = process.env.PORT || 3000;
 app.listen(port, async () => {
   console.log(`Express server listening on port ${port}`);
