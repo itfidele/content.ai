@@ -109,10 +109,10 @@ export default function ContentCreator() {
         <Flex flex={1} direction={"column"} gap={2} >
           <Image src="./logo1.png" width="80px" alignSelf={"center"}/>
           <br />
-          <Text fontWeight={"bold"}>YOUR PALM API KEY</Text>
+          <Text fontWeight={"bold"}>YOUR API KEY</Text>
           <Alert status="info" title="Generate your API KEY from this link" fontSize={"sm"}>
             <AlertDescription>
-              <a href="https://makersuite.google.com/app/apikey" target="_blank" rel="noreferrer">Generate your your API KEY</a>
+              <a href="https://makersuite.google.com/app/apikey" target="_blank" rel="noreferrer">Generate your FREE API KEY</a>
             </AlertDescription>
           </Alert>
           <Input
@@ -121,7 +121,7 @@ export default function ContentCreator() {
             rounded={"md"}
             border={"1px"} borderColor={"black"}
             required
-            placeContent={"your palm api key here"}
+            placeContent={"ENter your api key here"}
             w={"full"}
             id="topic"
             size={"sm"}
