@@ -1,5 +1,4 @@
-# Welcome to Content AI creator!
-
+Content creator AI!
 
 
 ## Development
