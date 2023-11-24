@@ -1,11 +1,20 @@
-# Welcome to Remix!
+# Welcome to Content AI creator!
 
-- [Remix Docs](https://remix.run/docs)
+
 
 ## Development
 
 Start the Remix development asset server and the Express server by running:
+- [Remix Docs](https://remix.run/docs)
 
+### Create .env and add
+get your GOOGLE PALM API from this link https://developers.generativeai.google/tutorials/setup
+```sh
+PORT=port_where_server_should_run_from
+GOOGLE_PALM_API_KEY=
+```
+
+### start a dev server
 ```sh
 npm run dev
 ```
