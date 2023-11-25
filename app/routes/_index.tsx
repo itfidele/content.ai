@@ -16,7 +16,7 @@ export default function Index(){
             </Flex>
         <Container as={Flex} direction={"column"} gap={10} alignItems={"center"} justifyContent={"center"} minW={"7xl"} h={"70vh"}>
             <Flex p={6} direction={"column"}>
-                <Text textAlign={"center"} fontSize={52} fontWeight={"bold"} color={"gray.50"}>Unlock the Power of AI Writing <br /> for Exceptional Content Creator Tool.</Text>
+                <Text textAlign={"center"} fontSize={52} fontWeight={"bold"} color={"gray.50"}>Unlock the Power of AI Writing <br /> for Exceptional Content Creator.</Text>
                 <Text textAlign={"center"} fontSize={20} color={"gray.400"}>Revolutionize your content creation with advanced AI. Create exceptional content quickly and easily, and gain a leading edge in your industry.</Text>
             </Flex>
             <Button as={Link} isLoading={loading} disabled={loading} to={'/content'}  bg={"#2770FF"} color={"white"} size={"md"} _hover={{bg:"blue.600",color:"gray.50"}} rounded={"lg"}>Try It for Free</Button>
