@@ -1,4 +1,4 @@
-Content creator AI!
+Advanced AI Content Creator
 
 
 ## Development
