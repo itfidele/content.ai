@@ -1,4 +1,5 @@
 # Advanced AI Content Creator
+<img width="1440" alt="Screenshot 2023-11-25 at 23 26 58" src="https://github.com/itfidele/content.ai/assets/30210556/7eb0e5b9-49a0-43d0-bed3-6f4764e115d2">
 
 
 ## Development
